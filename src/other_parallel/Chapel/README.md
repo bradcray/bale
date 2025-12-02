@@ -1,6 +1,6 @@
 # bale (Chapel)
 
-So far we have 5 different Chapel files in bale_chapel. None of these codes is using software aggregation libraries (like exstack or conveyors) because we haven't written them yet in Chapel. Hopefully that will be a future project! Our Chapel implementations mostly follow the AGP model as an experiment to see how clean they look in Chapel.
+So far we have 5 different Chapel files in bale_chapel. None of these codes is using software aggregation libraries (like exstack or conveyors) because we haven't written them yet in Chapel. Our Chapel implementations mostly follow the AGP model as an experiment to see how clean they look in Chapel.  Since these original versions were written, the Chapel team has explored writing aggregation-based versions of some of them, which can be found at https://github.com/chapel-lang/chapel/tree/main/test/studies/bale
 
 * histo.chpl :  This file implements histogram in a few different chapel styles.
 * ig.chpl: This file implements index_gather in a few different chapel styles
